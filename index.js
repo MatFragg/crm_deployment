@@ -27,21 +27,20 @@ const whitelist = [process.env.FRONTEND_URL];
 const corsOptions = {
     origin: (origin, callback) => {
         // check if the req origin is in the whitelist
-        const exists = whitelist.some(domain => domain === origin);
-        if(exists){
-            callback(null,true);
+        if (!origin || whitelist.includes(origin)) {
+            callback(null, true);
         } else {
             callback(new Error('Not allowed by CORS'));
-        } 
+        }
     }
 };
 
 app.use(cors(corsOptions));
 
-app.use('/', userRouter);
-app.use('/', orderRouter);
-app.use('/', productRouter);
-app.use('/', clientRouter);
+app.use('/', userRouter());
+app.use('/', orderRouter());
+app.use('/', productRouter());
+app.use('/', clientRouter());
 
 
 const host = process.env.HOST || '0.0.0.0';
