@@ -1,6 +1,6 @@
 # CRM - Administración de Clientes
 
-Meeti es una plataforma web diseñada para la creación, gestión y descubrimiento de eventos en diversas categorías, desde tecnología y emprendimiento hasta arte y bienestar. Su objetivo es conectar a personas con intereses comunes, permitiéndoles organizar y asistir a eventos tanto presenciales como virtuales.
+Este CRM es una aplicación web diseñada para la gestión eficiente de clientes, productos y pedidos en pequeños negocios. Su objetivo es optimizar la administración y el seguimiento de ventas, permitiendo a los usuarios organizar su inventario y mejorar la relación con sus clientes.
 
 ## 🚀 Cómo Utilizar la Web??
 - Ingresa al siguiente Enlace: https://crm-admin-clients.netlify.app/
