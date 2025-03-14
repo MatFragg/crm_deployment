@@ -16,9 +16,11 @@ mongoose.Promise = global.Promise;
 mongoose.connect(process.env.DB_URL);
 
 const app = express();
+app.use(express.static('uploads'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
+
 
 // define a domain
 const whitelist = [process.env.FRONTEND_URL];
@@ -41,9 +43,8 @@ app.use('/', orderRouter());
 app.use('/', productRouter());
 app.use('/', clientRouter());
 
-app.use(express.static('uploads'));
 
-const host = proccess.env.HOST || '0.0.0.0';
+const host = process.env.HOST || '0.0.0.0';
 const port = process.env.PORT || 8000;
 app.listen(port,host, () => {
     console.log("server is running");
