@@ -46,6 +46,9 @@ app.use('/', userRouter);
 app.use('/', orderRouter);
 app.use('/', productRouter);
 app.use('/', clientRouter);
+app.get("/health", (req, res) => {
+    res.status(200).json({ message: "API activa 🚀" });
+});
 
 
 const host = process.env.HOST || '0.0.0.0';
