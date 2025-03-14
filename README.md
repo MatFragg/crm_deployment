@@ -3,7 +3,7 @@
 Meeti es una plataforma web diseñada para la creación, gestión y descubrimiento de eventos en diversas categorías, desde tecnología y emprendimiento hasta arte y bienestar. Su objetivo es conectar a personas con intereses comunes, permitiéndoles organizar y asistir a eventos tanto presenciales como virtuales.
 
 ## 🚀 Cómo Utilizar la Web??
-- Ingresa al siguiente Enlace: https://crm-admin-clients.netlify.app/login
+- Ingresa al siguiente Enlace: https://crm-admin-clients.netlify.app/
 
 - Para acceder al CRM , coloca las siguientes credenciales
     email:test@gmail.com
