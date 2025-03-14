@@ -2,7 +2,7 @@
 
 Este CRM es una aplicación web diseñada para la gestión eficiente de clientes, productos y pedidos en pequeños negocios. Su objetivo es optimizar la administración y el seguimiento de ventas, permitiendo a los usuarios organizar su inventario y mejorar la relación con sus clientes.
 
-## 🚀 Cómo Utilizar la Web??
+## 🚀 Cómo Utilizar la Web?
 - Ingresa al siguiente Enlace: https://crm-admin-clients.netlify.app/
 
 - Para acceder al CRM , coloca las siguientes credenciales
