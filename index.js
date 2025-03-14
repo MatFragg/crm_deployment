@@ -13,7 +13,12 @@ const cors = require('cors');
 require('dotenv').config({path: 'variables.env'});
 
 mongoose.Promise = global.Promise;
-mongoose.connect(process.env.DB_URL);
+mongoose.connect(process.env.DB_URL ,
+    { useNewUrlParser: true,
+    useUnifiedTopology: true,
+})
+.then(() => console.log('📌 Conectado a MongoDB'))
+.catch(err => console.error('❌ Error de conexión:', err.message));
 
 const app = express();
 app.use(express.static('uploads'));
