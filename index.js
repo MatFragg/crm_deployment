@@ -38,10 +38,10 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
-app.use('/', userRouter());
-app.use('/', orderRouter());
-app.use('/', productRouter());
-app.use('/', clientRouter());
+app.use('/', userRouter);
+app.use('/', orderRouter);
+app.use('/', productRouter);
+app.use('/', clientRouter);
 
 
 const host = process.env.HOST || '0.0.0.0';
