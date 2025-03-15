@@ -6,8 +6,8 @@ Este CRM es una aplicación web diseñada para la gestión eficiente de clientes
 - Ingresa al siguiente Enlace: https://crm-admin-clients.netlify.app/
 
 - Para acceder al CRM , coloca las siguientes credenciales
-    email:test@gmail.com
-    password:123456
+    - email:test@gmail.com
+    - password:123456
 
 - Y listo , ahora tendras acceso al CRM donde podras visualizar los productos , clientes y ordenes registradas.Asimismo, podras crear , actualizar y eliminar cada item que desees.
 
